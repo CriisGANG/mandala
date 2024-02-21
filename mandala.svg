@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="500" height="500"
+     viewBox="-30 -30 60 60">
+    <defs>
+        <!-- Objectes -->
+
+        <g id="circulo" fill="url(#gSombracir)" stroke="#e71d36" stroke-width="0.5">
+            <circle r="7"/>
+        </g>
+
+        <g id="tancar" fill="url(#gSombrafons)" >
+            <circle r="26"/>
+        </g>
+
+        <g id="pajaro" fill="none" stroke="black" stroke-width="0.2">
+            <path d="M 13.9872 -15.7215 C 14.7537 -15.3514 15.7737 -15.5825 16.1226 -16.327 C 16.3696 -16.854 15.596 -17.2738 15.2011 -17.1782 C 14.903 -17.106 14.7257 -16.7121 14.5334 -16.8584 C 14.3856 -17.4124 14.1234 -18.1327 13.1124 -18.3223 C 12.7827 -18.3842 12.3052 -18.2713 12.599 -17.8779 C 12.8202 -17.5818 13.1463 -17.4378 13.4757 -17.2849 C 13.5749 -17.2388 13.6528 -17.1275 13.7591 -17.0981 C 13.7844 -17.0912 13.8393 -17.1093 13.8363 -17.0833 C 13.8298 -17.0275 12.7797 -17.5629 12.6895 -17.1953 C 12.6243 -16.9299 13.3817 -16.778 13.5421 -16.7472 C 13.5522 -16.7453 13.6202 -16.7409 13.6192 -16.7324 C 13.6139 -16.6868 13.0156 -16.7912 12.9148 -16.5762 C 12.7801 -16.2888 13.2839 -16.2641 13.439 -16.2804 C 13.5687 -16.2941 13.7001 -16.2977 13.8264 -16.3213 C 13.8306 -16.322 14.0336 -16.3438 13.6442 -16.2692 C 13.2994 -16.2032 12.4137 -16.0351 12.3901 -15.8986 C 12.3664 -15.7622 12.4851 -15.7237 12.5512 -15.6007 C 12.6173 -15.4777 12.6644 -15.4531 12.7334 -15.3898 C 12.8025 -15.3266 13.2305 -15.9509 13.6883 -15.7982 M 16.0534 -16.8754 C 16.4395 -16.723 16.5092 -16.8843 16.1559 -16.667" />
+            <path d="M 18.0128 -14.2785 C 17.2463 -14.6486 16.2263 -14.4175 15.8774 -13.673 C 15.6304 -13.146 16.404 -12.7262 16.7989 -12.8218 C 17.097 -12.894 17.2743 -13.2879 17.4666 -13.1416 C 17.6144 -12.5876 17.8766 -11.8673 18.8876 -11.6777 C 19.2173 -11.6158 19.6948 -11.7287 19.401 -12.1221 C 19.1798 -12.4182 18.8537 -12.5622 18.5243 -12.7151 C 18.4251 -12.7612 18.3472 -12.8725 18.2409 -12.9019 C 18.2156 -12.9088 18.1607 -12.8907 18.1637 -12.9167 C 18.1702 -12.9725 19.2203 -12.4371 19.3105 -12.8047 C 19.3757 -13.0701 18.6183 -13.222 18.4579 -13.2528 C 18.4478 -13.2547 18.3798 -13.2591 18.3808 -13.2676 C 18.3861 -13.3132 18.9844 -13.2088 19.0852 -13.4238 C 19.2199 -13.7112 18.7161 -13.7359 18.561 -13.7196 C 18.4313 -13.7059 18.2999 -13.7023 18.1736 -13.6787 C 18.1694 -13.678 17.9664 -13.6562 18.3558 -13.7308 C 18.7006 -13.7968 19.5863 -13.9649 19.6099 -14.1014 C 19.6336 -14.2378 19.5149 -14.2763 19.4488 -14.3993 C 19.3827 -14.5223 19.3356 -14.5469 19.2666 -14.6102 C 19.1975 -14.6734 18.7695 -14.0491 18.3117 -14.2018 M 15.9466 -13.1246 C 15.5605 -13.277 15.4908 -13.1157 15.8441 -13.333" />
+        </g>
+
+        <g id="interior" fill="none" stroke="black" stroke-width="0.1">
+            <circle r="2"/>
+            <circle r="2.5"/>
+        </g>
+
+        <g id="puntitos" fill="white" stroke="black" stroke-width="0.1">
+            <path d="M 0.19 -2.25 A 0.1875 0.1875 90 0 0 -0.185 -2.25 A 0.1875 0.1875 90 0 0 0.19 -2.25" />
+        </g>
+
+       <g id="torre"  stroke="black" >
+            <path stroke-width="0.2" fill="#e71d36" d="M -1.8115 -6.74 A 1 1 0 0 1 1.8115 -6.74"/>
+            <path stroke-width="0.1" fill="yellow" d="M 0 -8.0625 L 0.0894 -7.7305 C 0.1003 -7.69 0.1058 -7.6697 0.1165 -7.6532 C 0.126 -7.6385 0.1385 -7.626 0.1532 -7.6165 C 0.1697 -7.6058 0.19 -7.6003 0.2305 -7.5894 L 0.5625 -7.5 L 0.2305 -7.4106 C 0.19 -7.3997 0.1697 -7.3942 0.1532 -7.3835 C 0.1385 -7.374 0.126 -7.3615 0.1165 -7.3468 C 0.1058 -7.3303 0.1003 -7.31 0.0894 -7.2695 L 0 -6.9375 L -0.0894 -7.2695 C -0.1003 -7.31 -0.1058 -7.3303 -0.1165 -7.3468 C -0.126 -7.3615 -0.1385 -7.374 -0.1532 -7.3835 C -0.1697 -7.3942 -0.19 -7.3997 -0.2305 -7.4106 L -0.5625 -7.5 L -0.2305 -7.5894 C -0.19 -7.6003 -0.1697 -7.6058 -0.1532 -7.6165 C -0.1385 -7.626 -0.126 -7.6385 -0.1165 -7.6532 C -0.1058 -7.6697 -0.1003 -7.69 -0.0894 -7.7305 L 0 -8.0625 Z" />
+        </g>
+
+        <g id="rom" fill="url(#gSOmbrar)" stroke="black" stroke-width="0.2">
+            <path d="M 4.94 -4.94 Q 9.986 -1.509 10 -10 M 4.94 -4.94 Q 1.501 -9.998 10 -10"/>
+        </g>
+
+        <g id="exterior" fill="url(#gSombrae)" stroke="black" stroke-width="0.2">
+            <path d="M 0 -10.9862 Q -6.0083 -12.131 0 -18.1421 M 0 -10.9862 Q 5.9941 -12.1282 0 -18.1421"/>
+        </g>
+
+        <g id="mitgint" fill="url(#gSombram)" stroke="black" stroke-width="0.2">
+            <path d="M 4.94 -4.94 Q 9.986 -1.509 10 -10 M 4.94 -4.94 Q 1.501 -9.998 10 -10"/>
+        </g>
+
+        <g id="rim" stroke-width="0.1">
+            <path stroke="#d08c60" fill="url(#gSombra1)" d=" M 0.5892 -9.808 l -0.5892 0.5892 l -0.5892 -0.5892 a 0.4166 0.4166 90 0 1 0.5892 -0.5892 a 0.4166 0.4166 90 0 1 0.5892 0.5892 z"/>
+            <path stroke="black" fill= "none" stroke-width="0.1" d="M 0 -6.9863 Q -3 -7 0 -12.728 M -0.0198 -6.9707 Q 3 -7 0 -12.728" />
+        </g>
+
+        <g id="bunyols" fill="#d00000" stroke="black" stroke-width="0.1">
+            <path d="M 9.13 -9.87 A 0.75 0.75 90 0 0 9.13 -9.12 A 0.75 0.75 90 0 0 9.13 -9.12 A 0.75 0.75 90 0 0 9.88 -9.12 A 0.75 0.75 90 0 0 9.88 -9.87 A 0.75 0.75 90 0 0 9.13 -9.87" />
+        </g>  
+
+        <g id="circles" fill="none" stroke="black" stroke-width="0.1">
+            <path d="M 0.75 -5.5 A 0.75 0.75 90 0 0 -0.75 -5.5 A 0.75 0.75 90 0 0 0.75 -5.5 "/>
+            <path d="M 0.5 -4 A 0.5 0.5 90 0 0 -0.5 -4 A 0.5 0.5 90 0 0 0.5 -4" />
+            <path d="M 0.25 -3 A 0.25 0.25 90 0 0 -0.25 -3 A 0.25 0.25 90 0 0 0.25 -3 " />
+            <path d="M -0.75 -5.5 C 0 -6 0 -5 0.75 -5.5" />
+            <path d=" M -0.5 -4 C 0 -4.5 0 -3.5 0.5 -4" />
+            <path d="M -0.5 -4 C 0 -4.5 0 -3.5 0.5 -4 M -0.25 -3 C 0 -3.25 0 -2.75 0.25 -3" />
+        </g>
+
+        <g id="fuegos" fill="url(#gSombraf)" stroke="#997b66" stroke-width="0.0001">
+            <path d="M -1 -15.613 c 0.0109 0.0027 0.2691 0.0685 0.5302 0.2481 c 0.1179 0.081 0.217 0.1722 0.297 0.2722 c -0.0838 -0.3016 -0.214 -0.5157 -0.3307 -0.6591 c -0.2058 -0.2529 -0.4149 -0.3467 -0.4193 -0.3486 c -0.0388 -0.0168 -0.0567 -0.0616 -0.0401 -0.1005 c 0.0167 -0.0388 0.0616 -0.0569 0.1005 -0.0402 c 0.0097 0.0042 0.2409 0.1053 0.4713 0.3851 c 0.134 0.1628 0.2408 0.3531 0.3171 0.5658 c 0.0323 0.0897 0.059 0.1836 0.0803 0.2811 c 0.0072 -0.0261 0.015 -0.0524 0.0235 -0.079 C 0.1828 -15.5683 0.4685 -15.8808 0.8559 -15.9915 c 0.0406 -0.0116 0.0831 0.012 0.0947 0.0527 c 0.0116 0.0406 -0.012 0.0831 -0.0527 0.0947 c -0.3074 0.0878 -0.5352 0.3164 -0.6784 0.6798 c 0.0675 -0.0723 0.1459 -0.1394 0.2351 -0.2006 c 0.2611 -0.1795 0.5194 -0.2454 0.5302 -0.2481 c 0.041 -0.0102 0.0825 0.0147 0.0928 0.0557 c 0.0103 0.041 -0.0146 0.0827 -0.0555 0.0928 c -0.0024 0.0006 -0.2458 0.0631 -0.4845 0.2283 c -0.2817 0.195 -0.4375 0.444 -0.4642 0.741 c 0 0 0 0 0 0 c -0.004 0.058 -0.0043 0.0928 -0.0043 0.0939 c 0 0.0423 -0.0343 0.0765 -0.0766 0.0765 c -0.0423 0 -0.0766 -0.0343 -0.0766 -0.0765 c 0 -0.3387 -0.1577 -0.6197 -0.4686 -0.8347 c -0.2385 -0.1652 -0.4821 -0.2277 -0.4845 -0.2283 c -0.041 -0.0103 -0.0659 -0.0519 -0.0557 -0.0928 C -1.0827 -15.5983 -1.0412 -15.6232 -1 -15.613 z" />
+        </g>
+
+        <g id="medio" fill="url(#gSombrem)" stroke="black" stroke-width="0.1">
+            <path d="M 8 -13 A 1 1 0 0 0 0 -15 A 1 1 0 0 0 8 -13" />
+        </g>
+        <g id="minibolitas" fill="none" stroke="white" stroke-width="0.1">
+            <path d="M 3.2913 -5.5625 L 3.0747 -5.4375 M 3.0747 -5.4375 L 2.4252 -5.0625 M 3.0747 -5.4375 L 3.1434 -5.6936 M 3.0747 -5.4375 L 3.3309 -5.3688 M 2.4252 -5.0625 L 2.2087 -4.9375 M 2.4252 -5.0625 L 2.1691 -5.1311 M 2.4252 -5.0625 L 2.3566 -4.8063 M 2.2087 -5.5625 L 2.4252 -5.4375 M 2.4252 -5.4375 L 3.0748 -5.0625 M 2.4252 -5.4375 L 2.3566 -5.6936 M 2.4252 -5.4375 L 2.1691 -5.3688 M 3.0748 -5.0625 L 3.2913 -4.9375 M 3.0748 -5.0625 L 3.3309 -5.1311 M 3.0748 -5.0625 L 3.1434 -4.8063 M 2.75 -5.875 V -4.875 M 2.75 -4.625 V -4.875 M 2.75 -4.875 L 2.9375 -4.6875 M 2.75 -4.875 L 2.5625 -4.6875 M 2.9375 -5.8125 L 2.75 -5.625 L 2.5625 -5.812"/>
+            <path d="M 1.6457 -4.7813 L 1.5373 -4.7188 M 1.5373 -4.7188 L 1.2126 -4.5313 M 1.5373 -4.7188 L 1.5717 -4.8468 M 1.5373 -4.7188 L 1.6655 -4.6844 M 1.2126 -4.5313 L 1.1043 -4.4688 M 1.2126 -4.5313 L 1.0845 -4.5655 M 1.2126 -4.5313 L 1.1783 -4.4032 M 1.1043 -4.7813 L 1.2126 -4.7188 M 1.2126 -4.7188 L 1.5374 -4.5313 M 1.2126 -4.7188 L 1.1783 -4.8468 M 1.2126 -4.7188 L 1.0845 -4.6844 M 1.5374 -4.5313 L 1.6457 -4.4688 M 1.5374 -4.5313 L 1.6655 -4.5655 M 1.5374 -4.5313 L 1.5717 -4.4032 M 1.375 -4.9375 V -4.4375 M 1.375 -4.3125 V -4.4375 M 1.375 -4.4375 L 1.4688 -4.3438 M 1.375 -4.4375 L 1.2813 -4.3438 M 1.4688 -4.9063 L 1.375 -4.8125 L 1.2813 -4.9063" />
+            <path d="M 1.8957 -3.5313 L 1.7873 -3.4688 M 1.7873 -3.4688 L 1.4626 -3.2813 M 1.7873 -3.4688 L 1.8217 -3.5968 M 1.7873 -3.4688 L 1.9155 -3.4344 M 1.4626 -3.2813 L 1.3543 -3.2188 M 1.4626 -3.2813 L 1.3345 -3.3155 M 1.4626 -3.2813 L 1.4283 -3.1532 M 1.3543 -3.5313 L 1.4626 -3.4688 M 1.4626 -3.4688 L 1.7874 -3.2813 M 1.4626 -3.4688 L 1.4283 -3.5968 M 1.4626 -3.4688 L 1.3345 -3.4344 M 1.7874 -3.2813 L 1.8957 -3.2188 M 1.7874 -3.2813 L 1.9155 -3.3155 M 1.7874 -3.2813 L 1.8217 -3.1532 M 1.625 -3.6875 V -3.1875 M 1.625 -3.0625 V -3.1875 M 1.625 -3.1875 L 1.7188 -3.0938 M 1.625 -3.1875 L 1.5313 -3.0938 M 1.7188 -3.6563 L 1.625 -3.5625 L 1.5313 -3.6563" />
+        </g>
+
+        <g id="basquet" fill="none" stroke="black" stroke-width="0.2">
+            <path d="M 2.958 -17.257 c -0.1165 0.4738 -0.0584 0.8621 0.0556 1.3239 c 0.1416 0.5756 -0.0387 1.1007 -0.2956 1.6164 M 1.013 -11.91 c 0.2152 -0.4379 0.5093 -0.6979 0.8935 -0.9784 c 0.4785 -0.3499 0.6777 -0.8681 0.8126 -1.4283 M 6.352 -16.242 c -0.2152 0.4379 -0.5093 0.6979 -0.8935 0.9784 c -0.4785 0.3499 -0.6777 0.8681 -0.8126 1.4283 M 4.407 -10.898 c 0.1165 -0.4738 0.0584 -0.8621 -0.0556 -1.3239 c -0.1416 -0.5756 0.0387 -1.1007 0.2956 -1.6164" />
+            <path d="M 4.655 -16.797 L 2.99 -12.248" />
+            <path d="M 8 -13 A 1 1 0 0 0 0 -15 A 1 1 0 0 0 8 -13 C 6.631 -18.223 2.659 -18.629 0 -15" />
+        </g>
+
+        <g id="caragol" fill="url(#gSombrec)" stroke="black" stroke-width="0.1">
+            <path d="M 14.2257 -16.9711 M 1.7103 -20.153 C 1.4972 -20.5029 1.1441 -20.9944 0.9247 -21.2445 L 0.5254 -21.6992 L 0.1112 -21.0572 C -0.1164 -20.7045 -0.6289 -20.0541 -1.0273 -19.612 C -1.8054 -18.7484 -2.0605 -18.2086 -2.0813 -17.3824 C -2.0983 -16.6949 -2.0783 -16.6539 -1.7736 -16.7528 c 0.2109 -0.0687 0.2466 -0.1577 0.1953 -0.4899 c -0.0336 -0.2236 -0.0141 -0.605 0.0453 -0.8484 c 0.1234 -0.5053 1.7255 -2.7157 1.9597 -2.7033 c 0.0849 0.0045 0.347 0.2494 0.5817 0.5445 c 0.4654 0.5848 0.969 1.9325 1.0442 2.7926 c 0.0763 0.8829 0.3303 0.5679 0.3491 -0.4329 c 0.0142 -0.7858 -0.1801 -1.424 -0.6892 -2.2634 z z z Z M 0.7967 -20.2734 L 0.3931 -20.7199 L -0.307 -19.8036 C -1.2431 -18.5791 -1.3687 -18.3524 -1.4386 -17.7648 C -1.5134 -17.1367 -1.4132 -16.8101 -1.0726 -16.5725 L -0.8062 -16.3859 L -0.6471 -16.7785 c 0.1307 -0.3226 0.2456 -0.4205 0.6445 -0.5502 c 0.6293 -0.2045 0.9292 -0.717 0.7108 -1.2147 c -0.3065 -0.697 -1.3701 -0.647 -1.4054 0.0665 c -0.0207 0.429 0.267 0.6848 0.6365 0.5647 c 0.2704 -0.0877 0.2729 -0.0992 0.0389 -0.1757 c -0.159 -0.0523 -0.2458 -0.1587 -0.239 -0.2925 c 0.0124 -0.2516 0.3241 -0.3135 0.5659 -0.112 c 0.255 0.2124 0.0747 0.5579 -0.365 0.7007 c -0.4368 0.1419 -0.7333 -0.0837 -0.7836 -0.5965 c -0.0591 -0.5974 0.5446 -0.9684 1.1895 -0.7312 C 0.8711 -18.9257 1.0737 -18.258 0.7726 -17.7132 C 0.5769 -17.3601 0.5769 -17.3002 0.7715 -17.1597 C 0.8921 -17.0733 1.0283 -16.8838 1.0753 -16.7393 C 1.1429 -16.5307 1.1956 -16.5059 1.3254 -16.6181 c 0.0902 -0.0779 0.2652 -0.2006 0.3885 -0.2728 c 0.3012 -0.1758 0.2409 -0.8387 -0.1838 -2.0192 c -0.2366 -0.6565 -0.4439 -1.0434 -0.7336 -1.363" />
+        </g> 
+
+        <!-- Objectes -->
+
+        <!-- Grupos de Objectes -->
+
+        <g id="gminibolitas">
+            <use href="#minibolitas"/>
+            <use href="#minibolitas" transform="rotate(45)"/>
+            <use href="#minibolitas" transform="rotate(90)"/>
+            <use href="#minibolitas" transform="rotate(135)"/>
+        </g>
+
+        <g id="gmedio">
+            <use href="#medio"/>
+            <use href="#medio" transform="rotate(30)"/>
+            <use href="#medio" transform="rotate(60)"/>
+            <use href="#medio" transform="rotate(90)"/>
+            <use href="#medio" transform="rotate(120)"/>
+            <use href="#medio" transform="rotate(150)"/>
+        </g>
+
+        <g id="gbunyols">
+            <use href="#bunyols"/>
+            <use href="#bunyols" transform="rotate(30)"/>
+            <use href="#bunyols" transform="rotate(60)"/>
+            <use href="#bunyols" transform="rotate(90)"/>
+            <use href="#bunyols" transform="rotate(120)"/>
+            <use href="#bunyols" transform="rotate(150)"/>
+        </g>
+
+        <g id="fueracorona">
+            <use href="#exterior"/>
+            <use href="#exterior" transform="rotate(30)"/>
+            <use href="#exterior" transform="rotate(60)"/>
+            <use href="#exterior" transform="rotate(90)"/>
+            <use href="#exterior" transform="rotate(120)"/>
+            <use href="#exterior" transform="rotate(150)"/>
+        </g>
+
+        <g id="gpuntitos">
+            <use href="#puntitos"/>
+            <use href="#puntitos" transform="rotate(20)"/>
+            <use href="#puntitos" transform="rotate(40)"/>
+            <use href="#puntitos" transform="rotate(60)"/>
+            <use href="#puntitos" transform="rotate(80)"/>
+            <use href="#puntitos" transform="rotate(340)"/>
+            <use href="#puntitos" transform="rotate(320)"/>
+            <use href="#puntitos" transform="rotate(300)"/>
+            <use href="#puntitos" transform="rotate(280)"/>
+        </g>
+
+        <g id="gfuegos">
+            <use href="#fuegos"/>
+            <use href="#fuegos" transform="rotate(30)"/>
+            <use href="#fuegos" transform="rotate(60)"/>
+            <use href="#fuegos" transform="rotate(90)"/>
+            <use href="#fuegos" transform="rotate(120)"/>
+            <use href="#fuegos" transform="rotate(150)"/>
+        </g>
+
+        <g id="gcircles">
+            <use href="#circles"/>
+            <use href="#circles" transform="rotate(45)"/>
+            <use href="#circles" transform="rotate(90)"/>
+            <use href="#circles" transform="rotate(135)"/>
+        </g>
+
+          <g id="gbasquet">
+            <use href="#basquet"/>
+            <use href="#basquet" transform="rotate(30)"/>
+            <use href="#basquet" transform="rotate(60)"/>
+            <use href="#basquet" transform="rotate(90)"/>
+            <use href="#basquet" transform="rotate(120)"/>
+            <use href="#basquet" transform="rotate(150)"/>
+        </g>
+
+        <g id="gcaragol">
+            <use href="#caragol"/>
+            <use href="#caragol" transform="rotate(30)"/>
+            <use href="#caragol" transform="rotate(60)"/>
+            <use href="#caragol" transform="rotate(90)"/>
+            <use href="#caragol" transform="rotate(120)"/>
+            <use href="#caragol" transform="rotate(150)"/>
+        </g>
+
+        <!-- Grupos de Objectes -->
+
+        <!-- Grupos de Radial -->
+
+        <radialGradient id="gSombra1">
+            <stop stop-color="red" offset="2%"/>
+            <stop stop-color="black" offset="100%"/>
+        </radialGradient>
+
+        <linearGradient id="gSombraf">
+            <stop stop-color="#ff0055" offset="20%"/>
+            <stop stop-color="#C69671" offset="45%"/>
+            <stop stop-color="#C69671" offset="55%"/>
+            <stop stop-color="#fe0457" offset="100%"/>
+        </linearGradient>
+        
+        <linearGradient id="gSombram">
+            <stop stop-color="#9e6a27" offset="0%"/>
+            <stop stop-color="#c8bbb7" offset="45%"/>
+            <stop stop-color="#d62d32" offset="55%"/>
+            <stop stop-color="#c8bbb7" offset="100%"/>
+        </linearGradient>
+
+        <linearGradient id="gSombrae">
+            <stop stop-color="#ffb3c1" offset="0%"/>
+            <stop stop-color="#e71d36" offset="45%"/>
+            <stop stop-color="#e71d36" offset="55%"/>
+            <stop stop-color="#ffb3c1" offset="100%"/>
+        </linearGradient>
+
+        <linearGradient id="gSOmbrar">
+            <stop stop-color="#e71d36" offset="25%"/>
+            <stop stop-color="#ffbf69" offset="100%"/>
+        </linearGradient>
+
+        <radialGradient id="gSombrem">
+            <stop stop-color="#f9c74f" offset="%"/>
+            <stop stop-color="#ff9770" offset="70%"/>
+        </radialGradient>
+
+        <linearGradient id="gSombrec">
+            <stop stop-color="#e71d36" offset="2%"/>
+            <stop stop-color="#cfbaf0" offset="45%"/>
+            <stop stop-color="#cfbaf0" offset="55%"/>
+            <stop stop-color="#e71d36" offset="100%"/>
+        </linearGradient>
+
+        <radialGradient id="gSombracir">
+            <stop stop-color="#0618e3" offset="%"/>
+            <stop stop-color="#2fdbf1" offset="90%"/>
+        </radialGradient>
+
+        <radialGradient id="gSombrafons">
+            <stop stop-color="#2fdbf1" offset="60%"/>
+            <stop stop-color="bisque" offset="90%"/>
+        </radialGradient>
+
+        <!-- Grupos de Radial -->
+
+    </defs>
+        <!-- Fondo -->
+
+    <rect x="-30" y="-30" width="60" height="60" fill="bisque"/>
+        <!-- Fondo -->
+    <use href="#tancar"/>
+
+        <!-- Printear Objectes -->
+
+<g id="toto">
+     
+    <use href="#circulo"/>
+    <use href="#gbasquet"/>
+
+    <use href="#pajaro"/>
+    <use href="#pajaro" transform="rotate(90)"/>
+    <use href="#pajaro" transform="rotate(180)"/>
+    <use href="#pajaro" transform="rotate(270)"/>
+
+    <use href="#gpuntitos"/>
+    <use href="#gpuntitos" transform="rotate(180)"/>
+
+    <use href="#gminibolitas"/>
+    <use href="#gminibolitas" transform="rotate(180)"/>
+    
+    <use href="#interior"/>
+        
+    <use href="#gcaragol"/>
+    <use href="#gcaragol" transform="rotate(180)"/>
+    
+    <use href="#gmedio"/>
+    <use href="#gmedio" transform="rotate(180)"/>
+
+    <use href="#gbasquet"/>
+    <use href="#gbasquet" transform="rotate(180)"/>
+
+    <use href="#fueracorona"/>
+    <use href="#fueracorona" transform="rotate(180)"/>
+
+    <use href="#mitgint" transform="rotate(15)"/>
+    <use href="#mitgint" transform="rotate(45)"/>
+    <use href="#mitgint" transform="rotate(75)"/>
+    <use href="#mitgint" transform="rotate(105)"/>
+    <use href="#mitgint" transform="rotate(135)"/>
+    <use href="#mitgint" transform="rotate(165)"/>
+    <use href="#mitgint" transform="rotate(195)"/>
+    <use href="#mitgint" transform="rotate(225)"/>
+    <use href="#mitgint" transform="rotate(255)"/>
+    <use href="#mitgint" transform="rotate(285)"/>
+    <use href="#mitgint" transform="rotate(315)"/>
+    <use href="#mitgint" transform="rotate(345)"/>
+    <use href="#mitgint" transform="rotate(45)"/>
+
+    <use href="#rom"/>
+    <use href="#rom" transform="rotate(30)"/>
+    <use href="#rom" transform="rotate(60)"/>
+    <use href="#rom" transform="rotate(90)"/>
+    <use href="#rom" transform="rotate(120)"/>
+    <use href="#rom" transform="rotate(150)"/>
+    <use href="#rom" transform="rotate(180)"/>
+    <use href="#rom" transform="rotate(210)"/>
+    <use href="#rom" transform="rotate(240)"/>
+    <use href="#rom" transform="rotate(270)"/>
+    <use href="#rom" transform="rotate(300)"/>
+    <use href="#rom" transform="rotate(330)"/>
+
+    <use href="#gbunyols"/>
+    <use href="#gbunyols" transform="rotate(180)"/>
+
+
+    <use href="#rim" transform="rotate(15)"/>
+    <use href="#rim" transform="rotate(45)"/>
+    <use href="#rim" transform="rotate(75)"/>
+    <use href="#rim" transform="rotate(105)"/>
+    <use href="#rim" transform="rotate(135)"/>
+    <use href="#rim" transform="rotate(165)"/>
+    <use href="#rim" transform="rotate(195)"/>
+    <use href="#rim" transform="rotate(225)"/>
+    <use href="#rim" transform="rotate(255)"/>
+    <use href="#rim" transform="rotate(285)"/>
+    <use href="#rim" transform="rotate(315)"/>
+    <use href="#rim" transform="rotate(345)"/>
+    <use href="#rim" transform="rotate(45)"/>
+
+    
+    <use href="#torre"/>
+    <use href="#torre" transform="rotate(30)"/>
+    <use href="#torre" transform="rotate(60)"/>
+    <use href="#torre" transform="rotate(90)"/>
+    <use href="#torre" transform="rotate(120)"/>
+    <use href="#torre" transform="rotate(150)"/>
+    <use href="#torre" transform="rotate(180)"/>
+    <use href="#torre" transform="rotate(210)"/>
+    <use href="#torre" transform="rotate(240)"/>
+    <use href="#torre" transform="rotate(270)"/>
+    <use href="#torre" transform="rotate(300)"/>   
+    <use href="#torre" transform="rotate(330)"/>
+
+    <use href="#gcircles"/>
+    <use href="#gcircles" transform="rotate(180)"/>
+    
+    <use href="#gfuegos"/>
+
+    <use href="#gfuegos" transform="rotate(180)"/>
+
+</g>
+
+        <!-- Printear Objectes -->
+
+        <!-- Mandala Peque -->
+
+
+<use href="#toto" transform="scale(0.08)"/>
+<use href="#toto" transform="scale(0.007)"/>
+
+        <!-- Mandala Peque -->
+
+</svg>
